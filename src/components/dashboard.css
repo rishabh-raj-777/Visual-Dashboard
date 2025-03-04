@@ -1,0 +1,33 @@
+.dashboard {
+  background-color: #1E1E2F;
+  min-height: 100vh;
+  color: white;
+}
+
+.sidebar {
+  background-color: #27293D;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  width: 20%;
+}
+
+.content {
+  margin-left: 22%;
+  padding: 20px;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.stat-card h3 {
+  font-size: 2em;
+  font-weight: bold;
+}
